@@ -1,5 +1,5 @@
 @extends('layouts/app')
-@section('titulo', 'Modificar Sección')
+@section('titulo', 'Modificar Curso')
 @section('content')
     @if (Auth::user()->tipo == 1)
         @if (session('correcto'))
@@ -56,7 +56,7 @@
                         @error('seccion')
                             <small>*{{ $message }}</small>
                         @enderror
-                        <input type="text" id="seccion" placeholder="Sección" name="seccion" value="{{ $i->seccion }}">
+                        <input type="text" id="seccion" placeholder="Curso" name="seccion" value="{{ $i->seccion }}">
                     </div>
                     <div class="modal-footer">
                         <a href="{{ route('seccions.index') }}" class="btn btn-secondary" data-dismiss="modal">ATRAS</a>

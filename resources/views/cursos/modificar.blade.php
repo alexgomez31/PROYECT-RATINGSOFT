@@ -48,7 +48,7 @@
 
         <div id="modal-edit">
             @foreach ($sql as $i)
-                <h3 class="text-center" style="margin-bottom: 35px">MODIFICAR CURSO Y DOCENTE</h3>
+                <h3 class="text-center" style="margin-bottom: 35px">MODIFICAR MATERIA Y DOCENTE</h3>
                 <form action="{{ route('cursos.update') }}" method="POST">
                     <input type="hidden" name="id" value="{{ $i->id_curso }}">
                     @csrf
@@ -57,7 +57,7 @@
                             <small>*{{ $message }}</small>
                         @enderror
                         <select name="nombre" id="nombre">
-                            <option value="">Nombre del Curso...</option>
+                            <option value="">Nombre de la Materia...</option>
                             @foreach ($sql4 as $it)
                                 <option {{ $it->nombre == $i->nombre ? 'selected' : '' }} value="{{ $it->nombre }}">
                                     {{ $it->nombre }}</option>

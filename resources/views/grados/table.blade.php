@@ -58,7 +58,7 @@
                             Grado
                         </th>
                         <th>
-                            Sección
+                            Curso
                         </th>
                         <th>
                         </th>

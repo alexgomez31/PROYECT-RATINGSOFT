@@ -3,15 +3,15 @@
 @section('content')
     <div style="padding: 20px">
         <div>
-            <h2 class="text-center">RATINGSOFT SISTEMA DE NOTAS ACADEMICAS</h2>
+            <h2 class="text-center">RATINGSOFT GESTIÓN DE CALIFICACIONES</h2>
         </div>
         <div class="form-row col-12" style="display: flex;flex-wrap: wrap;margin-top: 30px">
 
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" style="background: #00bfa6bb;border-radius: 2px;">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" style="background: #ffa6008e;border-radius: 2px;">
                 <div style="display: flex;justify-content: space-between;align-items: center;padding: 19px">
                     <div style="border-right: solid rgb(255, 255, 255) 2px"><img
-                            style="min-width: 100px;max-width: 100px;height: 100px;max-height: 100px"
-                            src="{{ asset('img/users.svg') }}" alt=""></div>
+                    style="width: 135px; height: 135px; border-radius: 50%; object-fit: cover;"
+                            src="{{ asset('img/img2.jpg') }}" alt=""></div>
                     <div
                         style="font-size: 30px;color:  rgb(255, 255, 255);font-weight: bold;background: rgba(0, 0, 0, 0.13);padding: 5px">
                         @foreach ($sql4 as $item)
@@ -22,11 +22,11 @@
                 <h4 style="color: white" class="text-center">TODOS LOS USUARIOS</h4>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" style="background: #ffa6008e;border-radius: 2px;">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" style="background: #00bfa6bb;border-radius: 2px;">
                 <div style="display: flex;justify-content: space-between;align-items: center;padding: 19px">
                     <div style="border-right: solid rgb(255, 255, 255) 2px"><img
-                            style="min-width: 100px;max-width: 100px;height: 100px;max-height: 100px"
-                            src="{{ asset('img/admin.svg') }}" alt=""></div>
+                    style="width: 155px; height: 155px; border-radius: 50%; object-fit: cover;"
+                            src="{{ asset('img/Logo.png') }}" alt=""></div>
                     <div
                         style="font-size: 30px;color:  rgb(255, 255, 255);font-weight: bold;background: rgba(0, 0, 0, 0.13);padding: 5px">
                         @foreach ($sql as $item)
@@ -40,8 +40,8 @@
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" style="background: #00a2ff94;border-radius: 2px;">
                 <div style="display: flex;justify-content: space-between;align-items: center;padding: 19px">
                     <div style="border-right: solid rgb(255, 255, 255) 2px"><img
-                            style="min-width: 100px;max-width: 100px;height: 100px;max-height: 100px"
-                            src="{{ asset('img/miss.svg') }}" alt=""></div>
+                    style="width: 135px; height: 135px; border-radius: 50%; object-fit: cover;"
+                            src="{{ asset('img/3.jpeg') }}" alt=""></div>
                     <div
                         style="font-size: 30px;color:  rgb(255, 255, 255);font-weight: bold;background: rgba(0, 0, 0, 0.13);padding: 5px">
                         @foreach ($sql2 as $item)
@@ -55,8 +55,8 @@
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" style="background: #cc00ff96;border-radius: 2px;">
                 <div style="display: flex;justify-content: space-between;align-items: center;padding: 19px">
                     <div style="border-right: solid rgb(255, 255, 255) 2px"><img
-                            style="min-width: 100px;max-width: 100px;height: 100px;max-height: 100px"
-                            src="{{ asset('img/student.svg') }}" alt=""></div>
+                            style="width: 135px; height: 135px; border-radius: 50%; object-fit: cover;"
+                            src="{{ asset('img/home5.jpg') }}" alt="" ></div>
                     <div
                         style="font-size: 30px;color:  rgb(255, 255, 255);font-weight: bold;background: rgba(0, 0, 0, 0.13);padding: 5px">
                         @foreach ($sql3 as $item)
@@ -70,8 +70,8 @@
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" style="background: #ff000081;border-radius: 2px;">
                 <div style="display: flex;justify-content: space-between;align-items: center;padding: 19px">
                     <div style="border-right: solid rgb(255, 255, 255) 2px"><img
-                            style="min-width: 100px;max-width: 100px;height: 100px;max-height: 100px"
-                            src="{{ asset('img/curso.svg') }}" alt=""></div>
+                    style="width: 135px; height: 135px; border-radius: 50%; object-fit: cover;"
+                            src="{{ asset('img/materias.jpeg') }}" alt=""></div>
                     <div
                         style="font-size: 30px;color:  rgb(255, 255, 255);font-weight: bold;background: rgba(0, 0, 0, 0.13);padding: 5px">
                         @foreach ($sql5 as $item)
@@ -85,8 +85,8 @@
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" style="background: #abbe00;border-radius: 2px;">
                 <div style="display: flex;justify-content: space-between;align-items: center;padding: 19px">
                     <div style="border-right: solid rgb(255, 255, 255) 2px"><img
-                            style="min-width: 100px;max-width: 100px;height: 100px;max-height: 100px"
-                            src="{{ asset('img/nota.svg') }}" alt=""></div>
+                    style="width: 135px; height: 135px; border-radius: 50%; object-fit: cover;"
+                            src="{{ asset('img/home.jpg') }}" alt=""></div>
                     <div
                         style="font-size: 13px;color: rgb(255, 255, 255);font-weight: bold;background: rgba(0, 0, 0, 0.13);padding: 5px">
                         @foreach ($sql7 as $item)
@@ -106,8 +106,8 @@
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" style="background: #ff007785;border-radius: 2px;">
                 <div style="display: flex;justify-content: space-between;align-items: center;padding: 19px">
                     <div style="border-right: solid rgb(255, 255, 255) 2px"><img
-                            style="min-width: 100px;max-width: 100px;height: 100px;max-height: 100px"
-                            src="{{ asset('img/seccion.svg') }}" alt=""></div>
+                    style="width: 135px; height: 135px; border-radius: 50%; object-fit: cover;"
+                            src="{{ asset('img/curso1.jpeg') }}" alt=""></div>
                     <div
                         style="font-size: 30px;color:  rgb(255, 255, 255);font-weight: bold;background: rgba(0, 0, 0, 0.13);padding: 5px">
 
@@ -116,14 +116,14 @@
                         @endforeach
                     </div>
                 </div>
-                <h4 style="color: white" class="text-center">SECCION</h4>
+                <h4 style="color: white" class="text-center">CURSO</h4>
             </div>
 
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4" style="background: #1088008a;border-radius: 2px;">
                 <div style="display: flex;justify-content: space-between;align-items: center;padding: 19px">
                     <div style="border-right: solid rgb(255, 255, 255) 2px"><img
-                            style="min-width: 100px;max-width: 100px;height: 100px;max-height: 100px"
-                            src="{{ asset('img/grado.svg') }}" alt=""></div>
+                    style="width: 135px; height: 135px; border-radius: 50%; object-fit: cover;"
+                            src="{{ asset('img/curso.webp') }}" alt=""></div>
                     <div
                         style="font-size: 30px;color:  rgb(255, 255, 255);font-weight: bold;background: rgba(0, 0, 0, 0.13);padding: 5px">
                         @foreach ($sql10 as $item)
@@ -131,7 +131,7 @@
                         @endforeach
                     </div>
                 </div>
-                <h4 style="color: white" class="text-center">GRADO Y SECCION</h4>
+                <h4 style="color: white" class="text-center">GRADO Y CURSO</h4>
             </div>
 
 

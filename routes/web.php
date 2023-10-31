@@ -213,3 +213,7 @@ Route::get('notas-estudiante-ingresar-anio', [NotaEstudianteController::class, '
 Route::get('notas-estudiante-semestre-{semestre}-{anio}', [NotaEstudianteController::class, 'verNotasPorSemestre'])->name('notasEstudiante.verNotasPorSemestre')->middleware('verified');
 //NOTAS FINALES
 Route::get('notas-estudiante-final-{anio}', [NotaEstudianteController::class, 'verNotasFinales'])->name('notasEstudiante.verNotasFinales')->middleware('verified');
+
+Route::get('/information', function () {
+    return view('information');
+})->name('information');

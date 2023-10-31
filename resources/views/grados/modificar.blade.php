@@ -1,5 +1,5 @@
 @extends('layouts/app')
-@section('titulo', 'Modificar Sección')
+@section('titulo', 'Modificar Curso')
 @section('content')
     @if (Auth::user()->tipo == 1)
         @if (session('correcto'))

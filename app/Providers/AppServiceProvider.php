@@ -26,9 +26,9 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         try {
-            $sql = DB::select('select * from empresa');
+            $sql = DB::select('select * from ratingsoft');
             foreach ($sql as $value) {
-                View::share('empresa', $value->nombre);
+                View::share('ratingsoft', $value->nombre);
             }
         } catch (\Throwable $th) {
             //throw $th;

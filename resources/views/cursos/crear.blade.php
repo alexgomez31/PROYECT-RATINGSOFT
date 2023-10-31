@@ -44,7 +44,7 @@
         @endif
 
         <div class="modal-body" id="modal-create">
-            <h3 class="text-center" style="margin-bottom: 55px">REGISTRO PARA ASINAR CURSO AL DOCENTE</h3>
+            <h3 class="text-center" style="margin-bottom: 55px">REGISTRO PARA ASINAR MATERIA AL DOCENTE</h3>
             <form action="{{ route('cursos.store') }}" method="POST">
                 @csrf
                 <div class="form-row col-12">
@@ -52,7 +52,7 @@
                         <small>*{{ $message }}</small>
                     @enderror
                     <select name="nombre" id="nombre">
-                        <option value="">Nombre del Curso...</option>
+                        <option value="">Nombre de la Materia...</option>
                         @foreach ($sql3 as $it)
                             <option value="{{ $it->nombre }}">{{ $it->nombre }}</option>
                         @endforeach

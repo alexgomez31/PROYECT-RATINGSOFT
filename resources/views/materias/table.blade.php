@@ -43,10 +43,10 @@
         @endif
 
         <div class="col-lg-12">
-            <h3 class="text-center">LISTA DE CURSOS</h3>
+            <h3 class="text-center">LISTA DE MATERIAS</h3>
             <div class="text-right" style="margin-bottom: 5px;">
                 <a href="{{ route('materias.create') }}" class="btn btn-primary"><i
-                        class="fas fa-plus"></i>&nbsp;&nbsp;&nbsp;Agregar Curso</a>
+                        class="fas fa-plus"></i>&nbsp;&nbsp;&nbsp;Agregar Materia</a>
             </div>
             <table class="table table-bordered table-responsive table-hover" id="example" width="100%">
                 <thead class="bg-primary">
@@ -55,7 +55,7 @@
                             ID
                         </th>
                         <th>
-                            Curso
+                            Materia
                         </th>
                         <th>
                         </th>

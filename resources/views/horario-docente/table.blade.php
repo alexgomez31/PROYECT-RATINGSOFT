@@ -9,7 +9,7 @@
                 <thead class="bg-primary">
                     <tr>
                         <th>
-                            Grado y Sección
+                            Grado y Curso
                         </th>
                         <th>
                             Curso

@@ -52,11 +52,11 @@
 
             <li class="{{ Request::is('seccions*') ? 'active' : '' }}">
                 <a href="{{ route('seccions.index') }}"><i
-                        class="fas fa-ad"></i>&nbsp;&nbsp;&nbsp;<span>Sección</span></a>
+                        class="fas fa-ad"></i>&nbsp;&nbsp;&nbsp;<span>Curso</span></a>
             </li>
             <li class="{{ Request::is('grados*') ? 'active' : '' }}">
                 <a href="{{ route('grados.index') }}"><i class="fas fa-layer-group"></i>&nbsp;&nbsp;&nbsp;<span>Grado y
-                        Sección</span></a>
+                Curso</span></a>
             </li>
             <li class="{{ Request::is('semestres*') ? 'active' : '' }}">
                 <a href="{{ route('semestres.index') }}"><i
@@ -80,18 +80,18 @@
         <a href="#"
             style="{{ Request::is('cursos*', 'materias*', 'competencias*') ? 'border-left:solid 2px #00C4FD!important;' : '' }}">
             <i class="fas fa-book-reader"></i>&nbsp;&nbsp;
-            <span>CURSOS</span>
+            <span>MATERIAS</span>
             <i class="fa fa-angle-left pull-right"></i>
         </a>
         <ul class="treeview-menu"
             style="{{ Request::is('cursos*', 'materias*', 'competencias*') ? 'display:block' : '' }}">
             <li class="{{ Request::is('materias*') ? 'active' : '' }}">
                 <a href="{{ route('materias.index') }}"><i
-                        class="fas fa-book-open"></i>&nbsp;&nbsp;&nbsp;<span>Cursos</span></a>
+                        class="fas fa-book-open"></i>&nbsp;&nbsp;&nbsp;<span>Materias</span></a>
             </li>
             <li class="{{ Request::is('cursos*') ? 'active' : '' }}">
                 <a href="{{ route('cursos.index') }}"><i
-                        class="fas fa-chalkboard-teacher"></i>&nbsp;&nbsp;&nbsp;<span>Cursos y Docentes</span></a>
+                        class="fas fa-chalkboard-teacher"></i>&nbsp;&nbsp;&nbsp;<span>Materias y Docentes</span></a>
             </li>
             {{-- <li class="{{ Request::is('competencias*') ? 'active' : '' }}">
         <a href="{{ route('competencias.index') }}"><i

@@ -74,22 +74,22 @@ INSERT INTO `curso` VALUES ('57', 'ARTE', '58', '21');
 INSERT INTO `curso` VALUES ('60', 'COMPUTACION', '66', '40');
 
 -- ----------------------------
--- Table structure for empresa
+-- Table structure for empres
 -- ----------------------------
-DROP TABLE IF EXISTS `empresa`;
-CREATE TABLE `empresa` (
-  `id_empresa` int(11) NOT NULL AUTO_INCREMENT,
+DROP TABLE IF EXISTS `ratingsoft`;
+CREATE TABLE `ratingsoft` (
+  `id_ratingsoft` int(11) NOT NULL AUTO_INCREMENT,
   `nombre` varchar(255) DEFAULT NULL,
   `ubicacion` varchar(255) DEFAULT NULL,
   `ruc` varchar(255) DEFAULT NULL,
   `telefono` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`id_empresa`)
+  PRIMARY KEY (`id_ratingsoft`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
--- Records of empresa
+-- Records of empres
 -- ----------------------------
-INSERT INTO `empresa` VALUES ('1', 'Maria Parado', null, null, null);
+INSERT INTO `ratingsoft` VALUES ('1', 'Maria Parado', null, null, null);
 
 -- ----------------------------
 -- Table structure for events
@@ -220,7 +220,7 @@ CREATE TABLE `institucion` (
 -- ----------------------------
 -- Records of institucion
 -- ----------------------------
-INSERT INTO `institucion` VALUES ('1', 'José Galvez', 'Somos la mejor institucion en el vraem', 'av. el ejercito', '978456321');
+INSERT INTO `institucion` VALUES ('1', 'RATINGSOFT', 'Gestión de calificaciones', 'ALEX', '1061984430');
 
 -- ----------------------------
 -- Table structure for materia

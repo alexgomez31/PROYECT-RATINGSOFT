@@ -37,7 +37,7 @@ class SeccionController extends Controller
             $sql=0;
         }
         if ($sql == 1) {
-            return back()->with('correcto', 'Sección Registrado Exitosamente');
+            return back()->with('correcto', 'Curso Registrado Exitosamente');
         } else {
             return back()->with('incorrecto', 'Error al Registrar');
         }
@@ -62,7 +62,7 @@ class SeccionController extends Controller
             $sql = 0;
         }
         if ($sql == 1) {
-            return back()->with('correcto', 'Sección Modificado Exitosamente');
+            return back()->with('correcto', 'Curso Modificado Exitosamente');
         } else {
             return back()->with('incorrecto', 'Error al Modificar');
         }
@@ -76,7 +76,7 @@ class SeccionController extends Controller
             $sql=0;
         }
         if ($sql == 1) {
-            return back()->with('correcto', 'Sección Eliminado Exitosamente');
+            return back()->with('correcto', 'Curso Eliminado Exitosamente');
         } else {
             return back()->with('incorrecto', 'Error al Eliminar');
         }

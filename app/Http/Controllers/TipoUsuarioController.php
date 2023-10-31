@@ -35,7 +35,7 @@ class TipoUsuarioController extends Controller
         // } else {
         //     return back()->with('incorrecto', 'Error al Registrar');
         // }
-        return back()->with('aviso', 'NO PUEDES HACER CAMBIOS CON ESTOS REGISTROS DEBIDO A QUE EL SISTEMA FUE DESARROLLADO EN RELACIÓN A ELLO. PARA MAS INFORMACIÓN CONSULTE CON EL ADMINISTRADOR');
+        return back()->with('aviso', 'ERR');
     }
     public function update(TipoUsuarioRequest $request)
     {
@@ -63,7 +63,7 @@ class TipoUsuarioController extends Controller
         // } else {
         //     return back()->with('incorrecto', 'Error al Modificar');
         // }
-        return back()->with('aviso', 'NO PUEDES HACER CAMBIOS CON ESTOS REGISTROS DEBIDO A QUE EL SISTEMA FUE DESARROLLADO EN RELACIÓN A ELLO. PARA MAS INFORMACIÓN CONSULTE CON EL ADMINISTRADOR');
+        return back()->with('aviso', 'ERROR');
     }
 
     public function destroy($id)
@@ -78,6 +78,6 @@ class TipoUsuarioController extends Controller
         // } else {
         //     return back()->with('incorrecto', 'Error al Eliminar');
         // }
-        return back()->with('aviso', 'NO PUEDES HACER CAMBIOS CON ESTOS REGISTROS DEBIDO A QUE EL SISTEMA FUE DESARROLLADO EN RELACIÓN A ELLO. PARA MAS INFORMACIÓN CONSULTE CON EL ADMINISTRADOR');
+        return back()->with('aviso', 'RR');
     }
 }

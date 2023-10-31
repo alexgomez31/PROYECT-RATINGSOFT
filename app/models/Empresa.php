@@ -4,9 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Empresa extends Model
+class Ratingsoft extends Model
 {
-    protected $table = "empresa";
+    protected $table = "ratingsoft";
     protected $primaryKey = "id";
     protected $timestamps=false;
     protected $fillable = [

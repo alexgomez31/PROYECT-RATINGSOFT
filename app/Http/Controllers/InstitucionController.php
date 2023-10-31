@@ -14,7 +14,7 @@ class InstitucionController extends Controller
      */
     public function index()
     {
-        $sql = DB::select('select * from empresa');
+        $sql = DB::select('select * from ratingsoft');
         return view('info.index')->with("sql", $sql);
     }
 
@@ -24,7 +24,7 @@ class InstitucionController extends Controller
             "nombre" => "required"
         ]);
         try {
-            $sql = DB::update('update empresa set nombre=?, ubicacion=?, ruc=?, telefono=?',[
+            $sql = DB::update('update ratingsoft set nombre=?, ubicacion=?, ruc=?, telefono=?',[
                 $request->nombre,
                 $request->ubicacion,
                 $request->ruc,

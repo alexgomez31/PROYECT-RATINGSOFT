@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Académico</title>
+    <title>RATINGSOFT</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -26,7 +26,7 @@
         }
 
         .portada {
-            background-image: url("{{ asset('img/portada.webp') }}");
+            background-image: url("{{ asset('img/login.jpg') }}");
             background-repeat: no-repeat;
             background-size: cover;
             width: 100%;
@@ -165,12 +165,14 @@
         </section>
         <header class="encabezado">
             <div>
-                <h4>{{$empresa}}</h4>
+                <h4>{{$ratingsoft ?? ''}}</h4>
             </div>
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Acerca de</a>
+                    <a href="{{ route('information') }}">Acerca de</a>
+
+                        <!-- <a href="#">Acerca de</a> -->
                         <a href="#">Nosotros</a>
                         <a href="#">servicios</a>
                     </li>
@@ -178,7 +180,7 @@
             </nav>
         </header>
         <div class="group-titulo">
-            <h1 class="titulo">SISTEMA DE NOTAS <br> ACADEMICOS</h1>
+            <h1 class="titulo">SOFTWARE DE CALIFICACIONES<br>RATINGSOFT</h1>
         </div>
         <div class="flex-center position-ref full-height menu">
             @if (Route::has('login'))
@@ -186,8 +188,8 @@
                     @auth
                         <a href="{{ url('/home') }}"><i class="fas fa-home"></i>&nbsp;&nbsp;&nbsp;Pagina de inicio</a>
                     @else
-                        <a href="{{ route('login') }}"><i class="fas fa-sign-in-alt"></i>&nbsp;&nbsp;&nbsp;Acceder al
-                            sistema</a>
+                        <a href="{{ route('login') }}"><i class="fas fa-sign-in-alt"></i>&nbsp;&nbsp;&nbsp;Acceder a RATINGSOFT
+                            </a>
                     @endauth
                 </div>
             @endif

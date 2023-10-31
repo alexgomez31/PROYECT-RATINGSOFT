@@ -56,7 +56,7 @@
                         @error('nombre')
                             <small>*{{ $message }}</small>
                         @enderror
-                        <input type="text" placeholder="Nombre del Curso" name="nombre" id="nombre"
+                        <input type="text" placeholder="Nombre de la Materia" name="nombre" id="nombre"
                             value="{{ $i->nombre }}">
                     </div>
 

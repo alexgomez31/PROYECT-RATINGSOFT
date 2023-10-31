@@ -60,14 +60,16 @@
     <div class="wrapper">
         <!-- Main Header -->
         <header class="main-header">
+<!-- Logo -->
+<a href="#" class="logo">
+    <!-- <img src="{{ asset('public/img/Logo.svg') }}" alt="RATINGSOFT" style="vertical-align: middle;"> -->
+    <h4>RATINGSOFT</h4>
+    {{-- @foreach ($datos as $item)
+            <b>{{ $item->nombre }}</b>
+    @endforeach --}}
+    <b>{{ $ratingsoft ?? '' }}</b>
+</a>
 
-            <!-- Logo -->
-            <a href="#" class="logo">
-                {{-- @foreach ($datos as $item)
-                        <b>{{ $item->nombre }}</b>
-                @endforeach --}}
-                <b>{{$empresa}}</b>
-            </a>
 
             <!-- Header Navbar -->
             <nav class="navbar navbar-static-top" role="navigation">
@@ -131,11 +133,10 @@
 
         <!-- Main Footer -->
         <footer class="main-footer" style="max-height: 100px;text-align: center">
-            {{-- <strong>Copyright © 2021 <a href="#">Company</a>.</strong> All rights
+            {{-- <strong>Copyright Ratingsoft© 2023 <a href="#">Company</a>.</strong> All rights
                 reserved.<br> --}}
-            <span>Desarrollado con ♥ por </span><a target="_blank"
-                href="https://isaiismael.github.io/portafolio/"><strong>Isai
-                    Ismael Sandoval Ccaccro</strong></a>
+            <span></span><a target="_blank"
+                href="#"><strong>RATINGSOFT</strong></a>
         </footer>
 
     </div>
