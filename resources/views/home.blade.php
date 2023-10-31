@@ -26,7 +26,7 @@
                 <div style="display: flex;justify-content: space-between;align-items: center;padding: 19px">
                     <div style="border-right: solid rgb(255, 255, 255) 2px"><img
                     style="width: 155px; height: 155px; border-radius: 50%; object-fit: cover;"
-                            src="{{ asset('img/Logo.png') }}" alt=""></div>
+                            src="{{ asset('img/descarga.png') }}" alt=""></div>
                     <div
                         style="font-size: 30px;color:  rgb(255, 255, 255);font-weight: bold;background: rgba(0, 0, 0, 0.13);padding: 5px">
                         @foreach ($sql as $item)

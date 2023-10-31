@@ -38,7 +38,7 @@
                     ID
                 </th>
                 <th>
-                    MIS CURSOS
+                    MATERIAS
                 </th>
                 <th>
                     GRADO

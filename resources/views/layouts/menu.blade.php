@@ -132,8 +132,8 @@
 {{-- ESTUDIANTES O ALUMNOS --}}
 @if (Auth::user()->tipo == 3)
     <li class="{{ Request::is('mis-cursos*') ? 'active' : '' }}">
-        <a href="{{ route('horariosEstudiante.table') }}"><i class="fas fa-book-open"></i>&nbsp;&nbsp;&nbsp;<span>MIS
-                CURSOS</span></a>
+        <a href="{{ route('horariosEstudiante.table') }}"><i class="fas fa-book-open"></i>&nbsp;&nbsp;&nbsp;<span>MATERIAS
+                Y PROFESOR</span></a>
     </li>
 
     <li class="{{ Request::is('notas-estudiante*') ? 'active' : '' }}">

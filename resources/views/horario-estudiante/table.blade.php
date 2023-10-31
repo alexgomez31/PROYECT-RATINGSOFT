@@ -1,15 +1,15 @@
 @extends('layouts/app')
-@section('titulo', 'Mis cursos')
+@section('titulo', 'MATERIAS')
 @section('content')
     @if (Auth::user()->tipo == 3)
 
         <div class="col-lg-12">
-            <h3 class="text-center">MIS CURSOS</h3>            
+            <h3 class="text-center">MIS MATERIAS</h3>            
             <table class="table table-bordered table-responsive table-hover" id="example" width="100%">
                 <thead class="bg-primary">
                     <tr>
                         <th>
-                            Curso
+                            Materia
                         </th>                                               
                         <th>Docente
                         </th>
