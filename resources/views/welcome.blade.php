@@ -171,7 +171,7 @@
                 <ul>
                     <li>
                     <a href="{{ route('information') }}">Acerca de</a>
-
+                    <a  href="resources\views\vision.blade.php">Visión</a>
                         <!-- <a href="#">Acerca de</a> -->
                         <a href="#">Nosotros</a>
                         <a href="#">servicios</a>
