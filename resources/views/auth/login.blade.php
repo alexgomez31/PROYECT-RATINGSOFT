@@ -18,7 +18,7 @@
 </head>
 
 <body class="hold-transition login-page">
-    <img class="wave" src="{{ asset('img/lo.jpeg') }}" style="width: 650px; height: 650px; border-radius: 50%; object-fit: cover;">
+    <img class="wave" src="{{ asset('img/lo.jpeg') }}" style="width: 35%; height: 75%; border-radius: 20%; object-fit: cover;margin:6%">
 </body>
 
     <div class="container">
@@ -28,7 +28,7 @@
         <div class="login-content">
             <form {{ url('/login') }} method="POST">
                 @csrf
-                <img src="{{ asset('inicio/img/avatar.svg') }}">
+                <img src="{{ asset('img/Logo.png') }}" style="width: 70%; height: 90%">
                 <h2 class="title">INICIAR SESIóN</h2>
 
                 @if (session('mensaje'))
@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="text-center" style="margin-top: 10px">
-                    {{-- <a class="font-italic isai5" href="{{ url('/password/reset') }}">Olvidé mi contraseña</a> --}}
+                    <a class="font-italic isai5" href="{{ url('/password/reset') }}">Olvidé mi contraseña</a>
                     {{-- <a class="font-italic isai5"
                         href="{{ url('/register') }}">Registrarse</a> --}}
                 </div>
