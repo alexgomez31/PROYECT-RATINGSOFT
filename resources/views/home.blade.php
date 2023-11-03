@@ -1,6 +1,8 @@
 @extends('layouts.app')
 @section('titulo', 'Principal')
 @section('content')
+
+
     <div style="padding: 20px">
         <h2 class="text-center">RATINGSOFT GESTIÓN DE CALIFICACIONES</h2>
 

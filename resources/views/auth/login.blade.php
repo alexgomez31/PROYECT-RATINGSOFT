@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login</title>
-    <link rel="icon"
-        href="https://media.istockphoto.com/photos/stack-of-books-with-graduation-cap-picture-id175529558?b=1&k=6&m=175529558&s=170667a&w=0&h=LbsOKQrDfPfQjZBMvkoqJHZqvow5weqo-dnPsrsbHJ4=">
+    <link rel="shortcut icon" href="img/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{{ asset('inicio/css/style.css') }}">

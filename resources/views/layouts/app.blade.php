@@ -7,6 +7,7 @@
     <title>@yield('titulo')</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <link rel="icon"
+    
         href="https://media.istockphoto.com/photos/stack-of-books-with-graduation-cap-picture-id175529558?b=1&k=6&m=175529558&s=170667a&w=0&h=LbsOKQrDfPfQjZBMvkoqJHZqvow5weqo-dnPsrsbHJ4=">
     <!-- Bootstrap 3.3.7 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
